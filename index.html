@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — Bryan Otávio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Bryan</h1>
+      <nav class="nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h2>Olá — Eu sou Bryan <span class="accent">Bryan</span></h2>
+          <p class="lead">Aqui você encontra meus projetos, meus estudos e tudo que estou construindo na programação.</p>
+          <p class="cta-row">
+            <a class="btn" href="#projetos">Ver projetos</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projects container">
+      <h3 class="section-title">Projetos</h3>
+      <div class="grid">
+
+        <!-- PROJETO 1 -->
+        <a class="card" href="https://naoseioqueescrever712-sys.github.io/Verso-Livre/" target="_blank" rel="noopener noreferrer">
+          <h4>Verso Livre</h4>
+          <p>Um site feito com banco de dados simples, para entrar rapidamente use:naoseioqueescrever712@gmail.com no email e bryan11 na senha.</p>
+        </a>
+
+        <!-- PROJETO 2 -->
+        <a class="card" href="https://naoseioqueescrever712-sys.github.io/Noticias-site/" target="_blank" rel="noopener noreferrer">
+          <h4>Noticias do dia</h4>
+          <p>Meu primeiro site, na minha opnião ficou muito bom.<p/>
+
+      </div>
+    </section>
+
+    <section id="sobre" class="container about">
+      <h3 class="section-title">Sobre</h3>
+      <p>Eu sou Bryan, tenho 12 anos e eu quero alcançar o patamar mais alto da programação com muito estudo.</p>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h3 class="section-title">Contato</h3>
+      <p>Entre em contato comigo pelo e‑mail: <a> href="mailto:bryanotaviocost.06131712@gmail.com">bryanotaviocost.06171312@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano"></span> Bryan Otávio — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
